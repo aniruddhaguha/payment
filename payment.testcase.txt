@@ -1,0 +1,18 @@
+| TC   | Input     | Expected Result                                    | Test Type           |
+| ---- | --------- | -------------------------------------------------- | ------------------- |
+| TC1  | 150       | `{ success: true, message: "Payment accepted." }`  | Positive            |
+| TC2  | 100       | `{ success: true, message: "Payment accepted." }`  | Boundary            |
+| TC3  | 99        | `{ success: false, message: "Payment rejected." }` | Negative            |
+| TC4  | 0         | `{ success: false, message: "Invalid amount." }`   | Boundary / Negative |
+| TC5  | -50       | `{ success: false, message: "Invalid amount." }`   | Negative            |
+| TC6  | 0.01      | `{ success: false, message: "Payment rejected." }` | Edge                |
+| TC7  | 99.99     | `{ success: false, message: "Payment rejected." }` | Edge                |
+| TC8  | 100.01    | `{ success: true, message: "Payment accepted." }`  | Edge                |
+| TC9  | "150"     | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC10 | null      | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC11 | undefined | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC12 | NaN       | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC13 | true      | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC14 | false     | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
+| TC15 | 1_000_000 | `{ success: true, message: "Payment accepted." }`  | Positive / Edge     |
+
