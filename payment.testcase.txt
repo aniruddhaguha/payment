@@ -14,5 +14,5 @@
 | TC12 | NaN       | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
 | TC13 | true      | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
 | TC14 | false     | `{ success: false, message: "Invalid amount." }`   | Invalid Input       |
-| TC15 | 1_000_000 | `{ success: true, message: "Payment accepted." }`  | Positive / Edge     |
+| TC15 | 1,000,000 | `{ success: true, message: "Payment accepted." }`  | Positive / Edge     |
 
