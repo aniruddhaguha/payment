@@ -78,7 +78,8 @@ const response = checkPayment(120);
 console.log(response);
 
 // Output:
-// { success: true, message: "Payment accepted." }
+// { success: true, 
+message: "Payment accepted." }
 
 **🧪 Running Tests**
 
@@ -113,7 +114,7 @@ Ability to design testable code
 
 Knowledge of edge case analysis
 
-Hands-on experience with Jest testing framework
+Hands-on experience with JEST testing framework
 
 **Perfect for demonstrating skills in:**
 Software Quality Assurance (SQA)
