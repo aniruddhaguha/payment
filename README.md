@@ -59,22 +59,28 @@ Language: JavaScript (ES6)
 **⚙️ Getting Started**
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/aniruddhaguha/payment.git
+
 cd payment
 
 2️⃣ Install Dependencies
+
 npm install
 
 ▶️ Usage Example
+
 const checkPayment = require('./payment');
 
 const response = checkPayment(120);
 
 console.log(response);
+
 // Output:
 // { success: true, message: "Payment accepted." }
 
-🧪 Running Tests
+**🧪 Running Tests**
+
 npm test
 
 **🔬 Test Coverage Focus**
@@ -89,8 +95,10 @@ This project includes test cases for:
 ❌ Negative values
 
 ❌ Zero input
+
 **
 📸 Example Output**
+
 {
   "success": false,
   "message": "Payment rejected"
@@ -116,6 +124,7 @@ Backend Validation Logic
 
 **👨‍💻 About Me**
 Anirudha Guha
+
 SQA Engineer | Automation Testing Enthusiast
 🔧 Skilled in API & Automation Testing
 
