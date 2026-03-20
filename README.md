@@ -97,8 +97,7 @@ This project includes test cases for:
 
 ❌ Zero input
 
-**
-📸 Example Output**
+**📸 Example Output**
 
 {
   "success": false,
@@ -124,6 +123,7 @@ Automation Testing Foundations
 Backend Validation Logic
 
 **👨‍💻 About Me**
+
 Anirudha Guha
 
 SQA Engineer | Automation Testing Enthusiast
