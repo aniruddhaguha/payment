@@ -8,8 +8,11 @@ This project implements a simple yet effective payment validation system. It ens
 
 It is built with a strong focus on:
 ✅ Input validation
+
 ✅ Edge case coverage
+
 ✅ Clean, maintainable code
+
 ✅ Test-driven development (TDD mindset)
 
 ✨ Key Features
@@ -96,5 +99,7 @@ Backend Validation Logic
 Anirudha Guha
 SQA Engineer | Automation Testing Enthusiast
 🔧 Skilled in API & Automation Testing
+
 🧪 Passionate about Quality Engineering
+
 📈 ISTQB Certified Tester
