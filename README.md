@@ -50,6 +50,7 @@ payment/
 └── README.md
 
 **🛠️ Tech Stack**
+
 Runtime: Node.js
 
 Testing: Jest
@@ -126,6 +127,7 @@ Backend Validation Logic
 Anirudha Guha
 
 SQA Engineer | Automation Testing Enthusiast
+
 🔧 Skilled in API & Automation Testing
 
 🧪 Passionate about Quality Engineering
